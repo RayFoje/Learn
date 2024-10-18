@@ -7,8 +7,8 @@ public class Main {
 
     while (loop) {
       System.out.print("Select a function, 1(+), 2(-), 3(*), 4(/): ");
-      int sw = scanner.nextInt();
-      switch (sw) {
+      int  selelctedFunction = scanner.nextInt();
+      switch (selelctedFunction) {
         case 1:
           System.out.println("A function has been selected +");
           sum();
@@ -31,8 +31,8 @@ public class Main {
       }
 
       System.out.println("Do you want to continue? (1 - Yes, 2 - No): ");
-      int l = scanner.nextInt();
-      if (l == 2) {
+      int selelctedExit= scanner.nextInt();
+      if (selelctedExit == 2) {
         loop = false;
         System.out.println("Exit...");
       }
